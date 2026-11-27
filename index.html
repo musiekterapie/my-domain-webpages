@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Petra Jerling - Music Therapy</title>
+		<!--================== META  ===============================================================================================================!-->
+		<meta name="description" content="Petra Jerling is a qualified Music Therapist practicing in Gamtoos Mouth, Eastern Cape. Her degrees in Music Education, Psychology and Music Therapy, along with her extensive experience in these fields, enables her to bring healing to those who are most in need of it. By harnessing the power of music, this sophisticated and nuanced therapy can change the lives of any and all." />
+		<meta name="keywords" content="Music Therapy, music therapist, music, therapy, petra, jerling, musiekterapie, musiek, terapie, terapeut, Music and Imagery, MI, Guided Imagery and Music, GIM, Positive Psychology, psychology, Mandala Assessment Research Instrument, MARI, community, group therapy, individual help, mental health" />
+		<meta http-equiv="author" content="Jan Jerling" />
+		<meta http-equiv="content-language" content="en-ZA" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--================== LINKS  ===============================================================================================================!-->
+		<link type="text/css" rel="stylesheet" href="Stylesheets/stylehome.css">
+		<link rel="shortcut icon" href="Images/titleicon.ico">
+	</head>
+		<!--================== MAIN  ===============================================================================================================!-->
+	<body>
+		<div id="sidenav">
+
+			<div class="HomeImageDiv">
+				<a><img class="HomeImage" id="HomeImageSmall" src="Images/Homesmall.png"></a>
+			</div>
+			
+			<button class="sidenav-btn" id="home-btn" onclick="window.location.href='index.html'">Home</button>
+			<button class="dropdown-btn">About</button>
+				<div class="dropdown-container">
+					<a class="droplist" href="Pages/About.html#musictherapy">Music Therapy</a>
+					<a class="droplist" href="Pages/About.html#petrajerling">Petra</a>
+					<a class="droplist" href="Pages/About.html#pubs">Publications</a>
+				</div>
+			<button class="dropdown-btn">Services</button>
+				<div class="dropdown-container">
+					<a class="droplist" href="Pages/Services.html#MI">M I</a>
+					<a class="droplist" href="Pages/Services.html#GIM">G I M</a>
+					<a class="droplist" href="Pages/Services.html#CreaMT">Creative Music Therapy</a>
+					<a class="droplist" href="Pages/Services.html#PosPsy">Positive Psychology</a>
+					<a class="droplist" href="Pages/Services.html#MARI">MARI</a>
+					<a class="droplist" href="Pages/Services.html#ComMT">Community Music Therapy</a>
+					<a class="droplist" href="Pages/Services.html#TB">Team Building</a>
+				</div>
+			<button class="sidenav-btn" onclick="window.location.href='Pages/Contact.html'">Contact</button>
+		
+		</div>
+
+		<div id="main">		
+		    <div id="mainimage" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1175px; margin-left: auto; margin-right: auto; padding: 20px; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box;">
+			
+		        <!-- Left Side: Isolated Logo -->
+		        <div class="HomeImageDiv" style="flex: 1 1 40%; min-width: 300px; text-align: right; padding-right: 40px; box-sizing: border-box;">
+		            <a href="#"><img class="HomeImage" src="Images/Homesmall.png" alt="Music & Well-being Logo" style="max-width: 100%; height: auto;"></a>
+		        </div>
+			
+		        <!-- Right Side: HTML Text Content -->
+		        <div style="flex: 1 1 50%; min-width: 340px; color: #4d4d4d; display: flex; flex-direction: column; text-align: left; box-sizing: border-box;">
+				
+		            <!-- Main Heading -->
+		            <h1 style="font-size: 2.2rem; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 0 20px 0; color: #4d4d4d;">
+		                Music Therapist
+		            </h1>
+				
+		            <!-- Sub-content container (Name + Degrees) -->
+		            <div style="display: flex; flex-wrap: nowrap; gap: 30px;">
+					
+		                <!-- Left Column: Name -->
+		                <div style="font-size: 1.15rem; font-weight: 700; white-space: nowrap; padding-top: 2px;">
+		                    Petra Jerling
+		                </div>
+					
+		                <!-- Right Column: Degrees & Reg Numbers -->
+		                <div style="font-size: 0.95rem; font-weight: 600; line-height: 1.6; color: #5a5a5a;">
+		                    PhD (Visual and Performing Arts with Music) (NWU) <br>
+							M.Mus. (Music Therapy) (UP)<br>
+		                    MA (Positive Psychology) cum laude (NWU)<br>
+		                    B.Mus. Ed (UPE/NMU)<br>
+		                    GIM Fellow (Association for Music and Imagery)<br>
+		                    MARI Practitioner (MARI-SA)<br>
+		                    MI Therapist (Instute for Music and Consciousness)
+						
+		                    <!-- Registration Numbers -->
+		                    <div style="font-size: 0.75rem; font-weight: 400; color: #7a7a7a; margin-top: 15px; line-height: 1.4;">
+		                        Practice Number: 067000 0531421<br>
+		                        HPCSA Number: AT 0001058
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>		
+		</div>
+
+		<div id="wrapper">
+			<audio id="audio" loop> 
+				<source src="Audio/Antonin_Dvorak_SerenadeForStrings.mp3" type="audio/mp3"/>
+			</audio>
+			<nav>
+				<div>
+					<button id="pauseplay" onclick="playORpause()" title="You are listening to: Antonin Dvorak - Serenade for Strings in E Opus 22 Moderato"></button>
+				</div>
+			</nav>
+		</div>
+
+		<!--================== SCRIPTS  ===============================================================================================================!-->
+		<script type="text/javascript" src="JavaScript/navbar.js" ></script>
+		<script type="text/javascript" src="JavaScript/audioplay.js" ></script>
+		
+	</body>
+</html>
